@@ -1,0 +1,20 @@
+{
+    "version": 3,
+    "mappings": "AKAA,UAAU;EACN,WAAW,EAAE,oCAAoC;EACjD,GAAG,EAAE,6CAA6C,CAAC,kBAAkB;EACrE,GAAG,EAAE,0CAA0C,CAAC,kBAAkB;EAClE,GAAG,EAAE,mDAAmD,CAAC,kBAAkB;;;AAG/E,AAAA,IAAI,CAAA;EACJ,WAAW,EAAE,iEAAiE;CAC7E",
+    "sources": [
+        "styles.scss",
+        "utils/_variables.scss",
+        "utils/_functions.scss",
+        "utils/_mixins.scss",
+        "utils/_extensions.scss",
+        "base/_base.scss",
+        "base/_typography.scss",
+        "components/_buttons.scss",
+        "layouts/_header.scss",
+        "layouts/_nav.scss",
+        "layouts/_container.scss",
+        "layouts/_form.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

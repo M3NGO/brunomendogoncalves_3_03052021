@@ -1,4 +1,4 @@
-/*pour linker ce main aux differents fichiers du pattern 7-1*/
+
 @import "./utils/variables";
 @import "./utils/functions";
 @import "./utils/mixins";
@@ -16,6 +16,4 @@
 
 
 
-
-@import "./vendors/";/*au cas où il y en ait dans le projet*/
 
