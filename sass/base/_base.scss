@@ -1,10 +1,19 @@
 @font-face {
-    font-family: 'Roboto', 'Roboto-Bold', 'Shrikhand';
-    src: url(/content/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
-    src: url(/content/fonts/Roboto/Roboto-Bold.ttf) format('truetype');
-    src: url(/content/fonts/Shrikhand/Shrikhand-Regular.ttf) format('truetype') ;
+    font-family: 'Roboto';
+    src: url("../content/fonts/Roboto/Roboto-Regular.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url("../content/fonts/Roboto/Roboto-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Shrikhand';
+    src: url("../content/fonts/Shrikhand/Shrikhand-Regular.ttf") format('truetype');
+}
+
+
 body{
-font-family: 'Roboto','Roboto Bold', 'Shrikhand', Arial, Helvetica, sans-serif;
+font-family: 'Roboto','Roboto-Bold', 'Shrikhand', Arial, Helvetica, sans-serif;
 }
