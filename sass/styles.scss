@@ -1,18 +1,27 @@
-
+//importation fichiers utils
 @import "./utils/variables";
 @import "./utils/functions";
 @import "./utils/mixins";
 @import "./utils/extensions";
 
+//importation fichiers base
 @import "./base/base";
 @import "./base/typography";
 
-@import "./components/buttons";
-
+//importation fichiers layouts
 @import "./layouts/header";
 @import "./layouts/nav";
 @import "./layouts/container";
 @import "./layouts/form";
+@import "./layouts/footer";
+
+//importation fichiers components
+@import "./components/buttons";
+@import "./components/ribbon";
+
+//importation fichiers pages
+@import "./pages/accueil";
+@import "./pages/menus";
 
 
 

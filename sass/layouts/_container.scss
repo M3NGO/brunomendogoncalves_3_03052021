@@ -1,0 +1,52 @@
+#corps{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.localisation{
+    display: flex;
+    justify-content: center;
+    background-color: $background +10%;
+}
+
+
+.section{
+    &__restaurants{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+}
+
+.carte-menu{
+    cursor: pointer;
+    @include card-menu;
+    border: solid black;
+    &__photos{
+        width: 100%;
+        height:65%;
+        border-radius: 1em 1em 0em 0em;
+    }
+    &__partie-titres{
+        height:35%;
+        width: 80%;
+        border-bottom-left-radius: 1em;
+        background-color: blueviolet;
+    }
+}
+
+
+.case-coeur{
+    display: flex;
+    border-bottom-right-radius: 1em;
+    width:20%;
+    background-color: yellow;
+    &__coeur{
+        display: flex;
+        align-self: center;
+    }
+}
+
+
+

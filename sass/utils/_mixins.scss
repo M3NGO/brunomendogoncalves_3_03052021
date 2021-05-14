@@ -1,0 +1,21 @@
+//mixins
+
+@mixin btn-shadow{box-shadow:0px 0px 14px rgba(126, 123, 123, 0.849)}
+
+@mixin btn-shadow-hover{box-shadow: 0px 0px 16px rgba(99, 96, 96, 0.849)}
+
+@mixin titres-section{font-size:1.4em;}
+
+@mixin titres-cards{font-size: 1em;}
+
+@mixin texte-p{font-size: 0.8em;}
+
+@mixin card-menu{
+    display: flex; 
+    flex-wrap: wrap; 
+    height:11em; 
+    max-width: 17em; 
+    min-width: 14em; 
+    border-radius: 1em; 
+    margin: 0.5em;
+}

@@ -1,19 +1,38 @@
 @font-face {
-    font-family: 'Roboto';
+    font-family: Roboto;
     src: url("../content/fonts/Roboto/Roboto-Regular.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: 'Roboto-bold';
+    font-family: Roboto-bold;
     src: url("../content/fonts/Roboto/Roboto-Bold.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: 'Shrikhand';
+    font-family: Shrikhand;
     src: url("../content/fonts/Shrikhand/Shrikhand-Regular.ttf") format('truetype');
 }
 
 
 body{
 font-family: 'Roboto','Roboto-Bold', 'Shrikhand', Arial, Helvetica, sans-serif;
+margin: 0px 0px 0px 0px;
+}
+
+h1, h2{
+    @include titres-section;
+}
+
+h3{
+    @include titres-cards;
+    margin: 6.4px 0px 6.4px 0px;
+}
+
+p{
+    @include texte-p;
+    margin: 6.4px 0px 6.4px 0px;
+}
+
+ul {
+    list-style-type: none;
 }
