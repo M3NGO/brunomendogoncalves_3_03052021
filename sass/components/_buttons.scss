@@ -2,10 +2,61 @@
 
 .fa-map-marker-alt{
     margin-right: 1em;
-    margin: 0.5em 0em 0.5em 0em;
+    margin: 0.5em 0.5em 0.5em 0em;
 }
 
 .fa-heart{
     margin-left: 1em;
 }
+
+.btn{
+    cursor: pointer;
+    height: 3em;
+    width: fit-content;
+    background-image: linear-gradient(to top left, $primaire 40%, $secondaire);
+    border: 0.5px solid transparent;
+    border-radius: 2em;
+    padding: 0em 2em 0em 2em;
+    color: white;
+    margin: 1.5em;
+    @include btn-shadow;
+}
+
+.btn-funct{
+    display: flex;
+    &__number{
+        position: absolute;
+        padding: 0.2em 0.5em 0.2em 0.5em;
+        background: $primaire;
+        border-radius: 50%;
+        color: white;
+        align-self: center;
+    }
+    &__icone{
+        width:3em;
+        text-align: center;
+    }
+
+    &__fond{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: $background-clair;
+    border-radius: 0.5em;
+    min-width: fit-content;
+    padding: 1em 1em 1em 1em;
+    margin-left: 0.7em;
+    width: 17em;
+        }
+        &--bgviolet{
+            background: $primaire-pale;
+        }
+        &--iconeviolet{
+            color: $primaire;
+        }
+
+
+}
+
+
 

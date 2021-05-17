@@ -40,6 +40,10 @@ ul {
   padding-left: 0.5em;
 }
 
+.center {
+  text-align: center;
+}
+
 .head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,7 +76,21 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #e5e5e5;
+  background-color: #ccc6c6;
+}
+
+.section__fonctionnement-boutons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 20em;
+  padding: 1.5em 0em 1.5em 0em;
 }
 
 .section__restaurants {
@@ -139,15 +157,94 @@ footer {
 
 .fa-map-marker-alt {
   margin-right: 1em;
-  margin: 0.5em 0em 0.5em 0em;
+  margin: 0.5em 0.5em 0.5em 0em;
 }
 
 .fa-heart {
   margin-left: 1em;
 }
 
+.btn {
+  cursor: pointer;
+  height: 3em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(40%, #9356dc), to(#ff79da));
+  background-image: linear-gradient(to top left, #9356dc 40%, #ff79da);
+  border: 0.5px solid transparent;
+  border-radius: 2em;
+  padding: 0em 2em 0em 2em;
+  color: white;
+  margin: 1.5em;
+  -webkit-box-shadow: 0px 0px 14px rgba(126, 123, 123, 0.849);
+          box-shadow: 0px 0px 14px rgba(126, 123, 123, 0.849);
+}
+
+.btn-funct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-funct__number {
+  position: absolute;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  background: #9356dc;
+  border-radius: 50%;
+  color: white;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.btn-funct__icone {
+  width: 3em;
+  text-align: center;
+}
+
+.btn-funct__fond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #ececec;
+  border-radius: 0.5em;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  padding: 1em 1em 1em 1em;
+  margin-left: 0.7em;
+  width: 17em;
+}
+
+.btn-funct--bgviolet {
+  background: #e7d6fc;
+}
+
+.btn-funct--iconeviolet {
+  color: #9356dc;
+}
+
 .ribbon {
   position: absolute;
   color: white;
+}
+
+.presentation {
+  background-color: #ececec;
+  padding: 1em;
+}
+
+.fonctionnement {
+  padding: 1.5em;
+}
+
+.restaurants {
+  padding: 1.5em;
 }
 /*# sourceMappingURL=styles.css.map */

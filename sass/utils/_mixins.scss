@@ -4,7 +4,9 @@
 
 @mixin btn-shadow-hover{box-shadow: 0px 0px 16px rgba(99, 96, 96, 0.849)}
 
-@mixin titres-section{font-size:1.4em;}
+@mixin titres-section{
+    font-size:1.4em;
+}
 
 @mixin titres-cards{font-size: 1em;}
 

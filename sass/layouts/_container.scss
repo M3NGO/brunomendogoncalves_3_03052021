@@ -7,17 +7,26 @@
 .localisation{
     display: flex;
     justify-content: center;
-    background-color: $background +10%;
+    background-color: $background-fonce;
 }
 
 
 .section{
+    &__fonctionnement-boutons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 20em;
+        padding: 1.5em 0em 1.5em 0em;
+    }
     &__restaurants{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         }
 }
+
+
 
 .carte-menu{
     cursor: pointer;
