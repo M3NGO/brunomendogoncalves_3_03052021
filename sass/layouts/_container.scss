@@ -36,12 +36,15 @@
     
     &__photos{
         width: 100%;
-        height:70%;
+        height:7em;
         border-radius: 1em 1em 0em 0em;
     }
     &__partie-titres{
-        width: 80%;
+        width: 69%;
+        height: 3.5em;
         border-bottom-left-radius: 1em;
+        padding-left: 0.5em;
+        padding-bottom: 0.5em;
         background-color: white;
     }
 }
@@ -50,7 +53,9 @@
 .case-coeur{
     display: flex;
     border-bottom-right-radius: 1em;
-    width:20%;
+    width: 27.5%;
+    justify-content: center;
+    cursor:pointer;
     background-color: white;
     &__coeur{
         display: flex;

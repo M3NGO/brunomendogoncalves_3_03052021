@@ -5,18 +5,25 @@
     margin: 0.5em 0.5em 0.5em 0em;
 }
 
-.coeur{
-    margin-left: 1em;
-    &:hover{
-        color: $fond-gradient;
-}
-}
 
-.coeur-cache{
+.coeur-vide{
+    background: $fond-gradient;
+    background-clip:text;
+    color:transparent;
+    display: inline;
+}
+.coeur-plein{
+    background: $fond-gradient;
+    background-clip:text;
+    color:transparent;
     display: none;
 }
-.coeur-cache:hover{
-    display: inline-block;
+.case-coeur:hover .coeur-vide{
+    display: none;
+}
+
+.case-coeur:hover .coeur-plein{
+    display: inline;
 }
 
 
