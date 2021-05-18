@@ -1,7 +1,7 @@
 
 //variables couleurs
-$background-fonce: rgb(204, 198, 198);
-$background-clair:rgb(236, 236, 236);
+$background-fonce: rgb(226, 226, 226);
+$background-clair:rgb(245, 245, 245);
 
 $primaire: rgb(147, 86, 220);
 
@@ -9,5 +9,13 @@ $primaire-pale:rgb(231, 214, 252);
 
 $secondaire: rgb(255, 121, 218);
 
-$tertiaire: rgb(153, 226, 208);
+$fond-gradient: linear-gradient(to top left, $primaire 40%, $secondaire);
 
+$tertiaire: rgb(153, 226, 208);
+$tertiaire-dark: rgb(84, 139, 126);
+
+// variables font
+
+$font-1: Roboto;
+
+$font-2: Shrikhand;

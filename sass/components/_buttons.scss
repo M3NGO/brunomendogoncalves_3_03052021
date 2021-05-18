@@ -5,25 +5,37 @@
     margin: 0.5em 0.5em 0.5em 0em;
 }
 
-.fa-heart{
+.coeur{
     margin-left: 1em;
+    &:hover{
+        color: $fond-gradient;
 }
+}
+
+.coeur-cache{
+    display: none;
+}
+.coeur-cache:hover{
+    display: inline-block;
+}
+
 
 .btn{
     cursor: pointer;
     height: 3em;
     width: fit-content;
-    background-image: linear-gradient(to top left, $primaire 40%, $secondaire);
+    background-image: $fond-gradient;
     border: 0.5px solid transparent;
     border-radius: 2em;
     padding: 0em 2em 0em 2em;
     color: white;
     margin: 1.5em;
-    @include btn-shadow;
+    @include shadow;
 }
 
 .btn-funct{
     display: flex;
+
     &__number{
         position: absolute;
         padding: 0.2em 0.5em 0.2em 0.5em;
@@ -41,6 +53,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    @include shadow;
     background: $background-clair;
     border-radius: 0.5em;
     min-width: fit-content;

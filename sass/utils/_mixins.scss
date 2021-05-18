@@ -1,11 +1,17 @@
 //mixins
 
-@mixin btn-shadow{box-shadow:0px 0px 14px rgba(126, 123, 123, 0.849)}
+@mixin logo{
+    padding-left: 1em;
+    font-family: $font-2;
+}
 
-@mixin btn-shadow-hover{box-shadow: 0px 0px 16px rgba(99, 96, 96, 0.849)}
+@mixin shadow{box-shadow:0px 0px 14px rgba(126, 123, 123, 0.849)}
+
+@mixin shadow-hover{box-shadow: 0px 0px 16px rgba(99, 96, 96, 0.849)}
 
 @mixin titres-section{
     font-size:1.4em;
+    padding-top:0.5em;
 }
 
 @mixin titres-cards{font-size: 1em;}

@@ -17,7 +17,7 @@
         flex-direction: column;
         justify-content: space-around;
         height: 20em;
-        padding: 1.5em 0em 1.5em 0em;
+        padding: 0em 0em 1.5em 0em;
     }
     &__restaurants{
         display: flex;
@@ -30,18 +30,19 @@
 
 .carte-menu{
     cursor: pointer;
+    position: relative;
     @include card-menu;
-    border: solid black;
+    @include shadow;
+    
     &__photos{
         width: 100%;
-        height:65%;
+        height:70%;
         border-radius: 1em 1em 0em 0em;
     }
     &__partie-titres{
-        height:35%;
         width: 80%;
         border-bottom-left-radius: 1em;
-        background-color: blueviolet;
+        background-color: white;
     }
 }
 
@@ -50,7 +51,7 @@
     display: flex;
     border-bottom-right-radius: 1em;
     width:20%;
-    background-color: yellow;
+    background-color: white;
     &__coeur{
         display: flex;
         align-self: center;
