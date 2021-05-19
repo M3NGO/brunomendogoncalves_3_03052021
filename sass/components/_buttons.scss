@@ -5,13 +5,6 @@
     margin: 0.5em 0.5em 0.5em 0em;
 }
 
-
-.coeur-vide{
-    background: $fond-gradient;
-    background-clip:text;
-    color:transparent;
-    display: inline;
-}
 .coeur-plein{
     background: $fond-gradient;
     background-clip:text;
@@ -23,6 +16,10 @@
 }
 
 .case-coeur:hover .coeur-plein{
+    display: inline;
+}
+
+.case-coeur:active .coeur-plein{
     display: inline;
 }
 
@@ -42,7 +39,6 @@
 
 .btn-funct{
     display: flex;
-
     &__number{
         position: absolute;
         padding: 0.2em 0.5em 0.2em 0.5em;
@@ -63,10 +59,9 @@
     @include shadow;
     background: $background-clair;
     border-radius: 0.5em;
-    min-width: fit-content;
+    width: 90%;
     padding: 1em 1em 1em 1em;
     margin-left: 0.7em;
-    width: 17em;
         }
         &--bgviolet{
             background: $primaire-pale;
