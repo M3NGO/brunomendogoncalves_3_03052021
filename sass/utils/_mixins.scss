@@ -14,9 +14,9 @@
     padding-top:0.5em;
 }
 
-@mixin titres-cards{font-size: 1em;}
+@mixin titres-cards{font-size: 0.8em;}
 
-@mixin texte-p{font-size: 0.8em;}
+@mixin texte-p{font-size: 0.7em;}
 
 @mixin card-menu{
     display: flex; 
@@ -25,4 +25,9 @@
     width: 17em; 
     border-radius: 1em; 
     margin: 0.5em;
+}
+
+@mixin display-flex-start{
+    display: flex;
+    align-self: flex-start;
 }

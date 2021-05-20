@@ -78,5 +78,30 @@
 
 }
 
+.btn-menu-section{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    &:hover{
+        background-color: $tertiaire;
+        border-radius: 0em 0.5em 0.5em 0em;
+    }
+    &--prix{
+        padding-top:2.5em;
+    }
+    &--check{
+        display: none;
+    }
+}
+.btn-menu-section:hover .btn-menu-section--prix{
+    display: inline;
+    
+}
+.btn-menu-section:hover .btn-menu-section--check{
+    display: flex;
+    color: white;
+    align-self: center;
+    
 
+}
 
