@@ -46,6 +46,10 @@ li a {
   visibility: hidden;
 }
 
+.gras {
+  font-weight: bold;
+}
+
 .head {
   display: -webkit-box;
   display: -ms-flexbox;
