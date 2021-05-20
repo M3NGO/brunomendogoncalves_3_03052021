@@ -38,9 +38,18 @@
         width: 100%;
         height:7em;
         border-radius: 1em 1em 0em 0em;
+        &--position{
+            object-fit: cover;
+            object-position: center 62%;
+        }
     }
+    &__bandeau{
+        display: flex;
+        width: 100%;
+    }
+
     &__partie-titres{
-        width: 69%;
+        width: 70%;
         height: 3.5em;
         border-bottom-left-radius: 1em;
         padding-left: 0.5em;
@@ -53,7 +62,7 @@
 .case-coeur{
     display: flex;
     border-bottom-right-radius: 1em;
-    width: 27.5%;
+    width: 30%;
     justify-content: center;
     cursor:pointer;
     background-color: white;

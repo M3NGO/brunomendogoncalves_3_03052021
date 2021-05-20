@@ -4,12 +4,15 @@ $background-fonce: rgb(226, 226, 226);
 $background-clair:rgb(245, 245, 245);
 
 $primaire: rgb(147, 86, 220);
+$primaire-back:rgb(231, 214, 252);
 
-$primaire-pale:rgb(231, 214, 252);
+$primaire-pale:rgb(164, 124, 214);
 
 $secondaire: rgb(255, 121, 218);
+$secondaire-pale: rgb(252, 138, 220);
 
 $fond-gradient: linear-gradient(to top left, $primaire 40%, $secondaire);
+$fond-gradient-clair :linear-gradient(to top left, $primaire-pale 40%, $secondaire-pale);
 
 $tertiaire: rgb(153, 226, 208);
 $tertiaire-dark: rgb(84, 139, 126);
