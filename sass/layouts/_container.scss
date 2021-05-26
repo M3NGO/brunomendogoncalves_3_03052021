@@ -58,7 +58,7 @@
 }
 
 
-.case-coeur{
+.case-coeur {
     display: flex;
     border-bottom-right-radius: 1em;
     width: 30%;
@@ -69,6 +69,18 @@
         display: flex;
         align-self: center;
     }
+}
+
+.case-coeur input[type="checkbox"], .case-coeur .coeur-plein{
+    display: none;
+}
+
+.case-coeur input[type="checkbox"]:checked~.coeur-plein{
+    display: inline-block;
+}
+
+.case-coeur input[type="checkbox"]:checked~.coeur-vide{
+    display: none;
 }
 
 .conteneur-bandeaux{

@@ -10,17 +10,16 @@
     background-clip:text;
     color:transparent;
     display: none;
-}
-.case-coeur:hover .coeur-vide{
-    display: none;
+    animation: gradient 1.5s;
 }
 
-.case-coeur:hover .coeur-plein{
-    display: inline;
-}
-
-.case-coeur:active .coeur-plein{
-    display: inline;
+ @keyframes gradient {
+     from {
+        opacity: 0;
+    }
+     to {
+        opacity: 1;
+    }
 }
 
 
@@ -78,30 +77,45 @@
 
 }
 
-.btn-menu-section{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    &:hover{
-        background-color: $tertiaire;
-        border-radius: 0em 0.5em 0.5em 0em;
-    }
-    &--prix{
-        padding-top:2.5em;
-    }
-    &--check{
-        display: none;
-    }
-}
-.btn-menu-section:hover .btn-menu-section--prix{
-    display: inline;
-    
-}
-.btn-menu-section:hover .btn-menu-section--check{
-    display: flex;
-    color: white;
-    align-self: center;
-    
 
+
+.btn-menu-section{
+    display:flex;
+    color: white;
+    height: 4em;
+    width: 4em;
+    justify-content: center;
+    background-color: $tertiaire;
+    border-radius: 0em 0.7em 0.7em 0em;
+    display: none;
+    &--check{
+        align-self: center;
+        
+    }
+}
+.btn-menu-section::before{
+    display: none;
+}
+
+.menu--section--bandeaux--zone-txt:hover + .btn-menu-section  > .btn-menu-section--check{
+    animation: checked .5s linear;
+}
+
+@keyframes checked {
+    from{transform: rotate(0deg); opacity:0}
+    to{transform: rotate(360deg); opacity: 1;}
+}
+
+
+.menu--section--bandeaux--zone-txt:hover + .btn-menu-section { 
+    display: inline-flex;
+    animation: slide-in .5s ease-in;
+   
+    
+}
+
+@keyframes slide-in {
+    from{width: 0;}
+    to{width: 4em;}
 }
 

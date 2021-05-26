@@ -9,3 +9,8 @@
 .gras{
     font-weight: bold;
 }
+.overflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

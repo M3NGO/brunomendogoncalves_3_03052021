@@ -27,6 +27,11 @@ h3{
     @include titres-cards;
     margin: 6.4px 0px 6.4px 0px;
 }
+.h3{
+    @include titres-cards;
+    margin: 0px 0px 0px 0px;
+    padding:0.3em 0em 0.5em 0.5em;
+}
 
 p{
     @include texte-p;
@@ -38,6 +43,11 @@ li a{
     color:white;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 0em 0em 0.5em;
+}
 
 
 
