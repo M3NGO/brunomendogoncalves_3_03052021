@@ -8,6 +8,7 @@
 .coeur-plein{
     background: $fond-gradient;
     background-clip:text;
+    -webkit-background-clip: text;//pour chrome
     color:transparent;
     display: none;
     animation: gradient 1.5s;
@@ -28,7 +29,7 @@
     height: 3em;
     width: fit-content;
     background-image: $fond-gradient;
-    border: 0.5px solid transparent;
+    border: 0.1px;
     border-radius: 2em;
     padding: 0em 2em 0em 2em;
     color: white;
@@ -38,7 +39,6 @@
         @include shadow-hover;
         background-image: $fond-gradient-clair;
     }
-
 }
 
 .btn-funct{
@@ -73,8 +73,6 @@
         &--iconeviolet{
             color: $primaire;
         }
-
-
 }
 
 
@@ -89,12 +87,8 @@
     border-radius: 0em 0.7em 0.7em 0em;
     display: none;
     &--check{
-        align-self: center;
-        
+        align-self: center; 
     }
-}
-.btn-menu-section::before{
-    display: none;
 }
 
 .menu--section--bandeaux--zone-txt:hover + .btn-menu-section  > .btn-menu-section--check{
@@ -110,8 +104,6 @@
 .menu--section--bandeaux--zone-txt:hover + .btn-menu-section { 
     display: inline-flex;
     animation: slide-in .5s ease-in;
-   
-    
 }
 
 @keyframes slide-in {
