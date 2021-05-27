@@ -1,9 +1,37 @@
 // contient tout le code de mise en page des pages menu
 
-.photo-menu{
+.photo-menu1{
     width: 100%;
     height: 15em;
     background-image: url("/content/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.photo-menu2{
+    width: 100%;
+    height: 15em;
+    background-image: url("/content/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    background-position: center 40%;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.photo-menu3{
+    width: 100%;
+    height: 15em;
+    background-image: url("/content/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.photo-menu4{
+    width: 100%;
+    height: 15em;
+    background-image: url("/content/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
     background-position: center;
     background-size: cover;
     position: relative;

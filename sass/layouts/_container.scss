@@ -10,23 +10,23 @@
     background-color: $background-fonce;
 }
 
-
 .section{
-    &__fonctionnement-boutons{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 20em;
-        padding: 0em 1em 1.5em 1em;
+    &__fonctionnement{
+        padding:0.5em;
+        &--boutons{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 20em;
+            padding: 0em 1em 1.5em 1em;
+        }
     }
     &__restaurants{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        }
+    padding: 0.5em;
+    background: $background-clair;
+    padding-bottom: 2.5em;
+    }
 }
-
-
 
 .carte-menu{
     cursor: pointer;
@@ -56,7 +56,6 @@
         background-color: white;
     }
 }
-
 
 .case-coeur {
     display: flex;
@@ -88,6 +87,9 @@
     flex-direction: column;
     justify-content: space-between;
     height: 15em;
+    &--entree{
+        height: 20em;
+    }
 }
 
 
