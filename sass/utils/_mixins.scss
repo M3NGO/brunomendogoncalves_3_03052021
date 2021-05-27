@@ -31,3 +31,14 @@
     display: flex;
     align-self: flex-start;
 }
+
+// Mixin Media Queries : https://dev.to/paul_duvall/sass-and-media-queries-hb2
+
+@mixin mediaquery ($breakpoint) {
+    @if($breakpoint == tablette)  {
+      @media (min-width: 425px) { @content }
+    }
+    @if($breakpoint == pc)  {
+      @media (min-width: 769px) { @content }
+    }
+  }
