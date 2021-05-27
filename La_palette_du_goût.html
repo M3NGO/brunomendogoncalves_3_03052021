@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ohmyfood! - La palette du goût</title>
+    <meta name="ohmyfood - La palette du goût" content="Réservez le menu qui vous convient" />
+    <link rel="stylesheet" type="text/css" href="/sass/styles.css">
+    <link href="content/fontawesome/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="corps">
+        <header><!-- contient logo et partie map -->
+            <a class="arrow" onclick="location.href='index.html'"><i class="fas fa-arrow-left"></i></a>
+            <div class="head">
+                <img class="head__logo" src="/content/images/logo/ohmyfood.png" alt="Logo Ohmyfood">
+            </div>
+        </header>
+
+        <section>
+            <img class="photo-menu1">
+            <div class="menu">
+                <div class="menu--titre"><!-- Partie titre menu / nom restaurant -->
+                    <div class="menu--titre--texte">
+                        <h1 class="h3">La palette du goût</h1>
+                    </div>
+  
+                        <label class="menu--titre--coeur">
+                            <input type="checkbox" />
+                            <i class="far fa-heart coeur-vide case-coeur__coeur"></i>
+                            <i class="fas fa-heart coeur-plein case-coeur__coeur"></i>
+                        </label>
+                    
+                </div>
+
+                <div class="menu--section animation-entree"><!-- Partie Entrées-->
+                    <div class="menu--section--titre">
+                        <p>ENTRÉES</p>
+                    </div>
+                    <div class="conteneur-bandeaux">
+                        
+                        <div class="menu--section--bandeaux"><!-- container ENTREE 1 -->
+                            <div class="menu--section--bandeaux--zone-txt overflow">
+                                <h2 class="h3 gras overflow">Fricassée d'escargot</h2>
+                                <div class="flex">
+                                    <p class="overflow">Au piment d'Espelette</p>
+                                    <p class="gras">25€</p>
+                                </div>
+                            </div>
+                            <div class="btn-menu-section"><!-- prix et icone-->
+                                <a class="btn-menu-section--check"><i class="fas fa-check-circle"></i></a>
+                            </div>
+                        </div>
+                    
+                        <div class="menu--section--bandeaux"><!-- container ENTREE 2 -->
+                            <div class="menu--section--bandeaux--zone-txt overflow">
+                                <h2 class="h3 gras overflow">Foie gras de canard mi-cuit</h2>
+                                <div class="flex">
+                                    <p class="overflow">Et ses copeaux de truffe noire</p>
+                                    <p class="gras">35€</p>
+                                </div>
+                            </div>
+                            <div class="btn-menu-section"><!-- prix et icone-->
+                                <a class="btn-menu-section--check"><i class="fas fa-check-circle"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="menu--section--bandeaux"><!-- container ENTREE 3 -->
+                            <div class="menu--section--bandeaux--zone-txt overflow">
+                                <h2 class="h3 gras overflow">Oeuf au plat</h2>
+                                <div class="flex">
+                                    <p class="overflow">Assaisonné à la truffe sur lit de caviar</p>
+                                    <p class="gras">20€</p>
+                                </div>
+                            </div>
+                            <div class="btn-menu-section"><!-- prix et icone-->
+                                <a class="btn-menu-section--check"><i class="fas fa-check-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Partie Entrées-->
+
+                <div class="menu--section animation-plats"><!-- Partie PLATS-->
+                    <div class="menu--section--titre">
+                        <p>PLATS</p>
+                    </div>
+                    <div class="conteneur-bandeaux">
+                        <div class="menu--section--bandeaux"><!-- container PLATS 1 -->
+                            <div class="menu--section--bandeaux--zone-txt overflow">
+                                <h2 class="h3 gras overflow">Filet de boeuf aux herbes</h2>
+                                <div class="flex overflow">
+                                    <p class="overflow">Accompagné de sa ribambelle de légumes</p>
+                                    <p class="gras">40€</p>
+                                </div>
+                            </div>
+                            <div class="btn-menu-section"><!-- prix et icone-->
+                                <a class="btn-menu-section--check"><i class="fas fa-check-circle"></i></a>
+                            </div>
+                        </div>
+                    
+                        <div class="menu--section--bandeaux"><!-- container PLATS 2 -->
+                            <div class="menu--section--bandeaux--zone-txt overflow">
+                                <h2 class="h3 gras overflow">Parmentier de queue de boeuf</h2>
+                                <div class="flex overflow">
+                                    <p class="overflow">À la truffe noire sur sa purée de panais</p>
+                                    <p class="gras">35€</p>
+                                </div>
+                            </div>
+                            <div class="btn-menu-section"><!-- prix et icone-->
+                                <a class="btn-menu-section--check"><i class="fas fa-check-circle"></i></a>
+                            </div>
+                        </div>
+                        <div class="menu--section--bandeaux"><!-- container PLATS 3 -->
+                            <div class="menu--section--bandeaux--zone-txt overflow">
+                                <h2 class="h3 gras overflow">Filet de turbot</h2>
+                                <div class="flex overflow">
+                                    <p class="overflow">Aux agrumes</p>
+                                    <p class="gras">44€</p>
+                                </div>
+                            </div>
+                            <div class="btn-menu-section"><!-- prix et icone-->
+                                <a class="btn-menu-section--check"><i class="fas fa-check-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Partie Plats-->
+ 
+                <div class="menu--section animation-desserts"><!-- Partie DESSERTS-->
+                    <div class="menu--section--titre">
+                        <p>DESSERTS</p>
+                    </div>
+                    <div class="conteneur-bandeaux">
+                        <div class="menu--section--bandeaux"><!-- container DESSERTS 1 -->
+                            <div class="menu--section--bandeaux--zone-txt overflow">
+                                <h2 class="h3 gras overflow">Paris-Brest</h2>
+                                <div class="flex overflow">
+                                    <p class="overflow">Revisité</p>
+                                    <p class="gras">18€</p>
+                                </div>
+                            </div>
+                            <div class="btn-menu-section"><!-- prix et icone-->
+                                <a class="btn-menu-section--check"><i class="fas fa-check-circle"></i></a>
+                            </div>
+                        </div>
+                    
+                        <div class="menu--section--bandeaux"><!-- container DESSERTS 2 -->
+                            <div class="menu--section--bandeaux--zone-txt overflow">
+                                <h2 class="h3 gras overflow">Macaron au chocolat d'exception</h2>
+                                <div class="flex overflow">
+                                    <p class="overflow">Et glace à la vanille de Madagascar</p>
+                                    <p class="gras">22€</p>
+                                </div>
+                            </div>
+                            <div class="btn-menu-section"><!-- prix et icone-->
+                                <a class="btn-menu-section--check"><i class="fas fa-check-circle"></i></a>
+                            </div>
+                        </div>
+                        <div class="menu--section--bandeaux"><!-- container DESSERTS 3 -->
+                            <div class="menu--section--bandeaux--zone-txt overflow">
+                                <h2 class="h3 gras overflow">Mousse au chocolat</h2>
+                                <div class="flex overflow">
+                                    <p class="overflow">Au piment d'Espelette et à la truffe noire</p>
+                                    <p class="gras">23€</p>
+                                </div>
+                            </div>
+                            <div class="btn-menu-section"><!-- prix et icone-->
+                                <a class="btn-menu-section--check"><i class="fas fa-check-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Partie Desserts-->
+
+                <div><!-- bouton commander-->
+                    <button class="btn" onclick="location.href='#'">Commander</button>
+                </div>
+
+            </div><!-- div class menu-->
+        </section>
+
+        <footer>
+            <div><!-- container footer -->
+                <div class="logo">
+                    <div>ohmyfood</div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a><i class="fas fa-utensils"></i></a>Proposer un restaurant</li>
+                        <li><a><i class="fas fa-hands-helping"></i></a>Devenir partenaire</li>
+                        <li>Mentions légales</li>
+                        <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>  <!-- div  ID CORPS-->
+</body>
+
+</html>
