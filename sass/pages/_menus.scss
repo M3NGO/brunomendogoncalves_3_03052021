@@ -1,41 +1,24 @@
 // contient tout le code de mise en page des pages menu
 
-.photo-menu1{
+.photo-menu{
     width: 100%;
     height: 15em;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    &__1{
     background-image: url("/content/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
-}
-.photo-menu2{
-    width: 100%;
-    height: 15em;
-    background-image: url("/content/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
-    background-position: center 40%;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
-}
-.photo-menu3{
-    width: 100%;
-    height: 15em;
-    background-image: url("/content/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
-}
-.photo-menu4{
-    width: 100%;
-    height: 15em;
-    background-image: url("/content/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    z-index: -1;
+    }
+    &__2{
+        background-image: url("/content/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    }
+    &__3{
+        background-image: url("/content/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    }
+    &__4{
+        background-image: url("/content/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    }
 }
 
 .menu{
@@ -49,14 +32,23 @@
     &--titre{
         @include display-flex-start;
         width: 100%;
+        @include mediaquery(tablette){
+            text-align: center;
+        }
         &--texte{
             font-family: $font-2;
             font-size: 1.7em;
             width: 90%;
+            @include mediaquery(tablette){
+                width: 100%;
+            }
         }
         &--coeur{
             align-self: center;
             cursor: pointer;
+            @include mediaquery(tablette){
+                padding-right: 1em;
+            }
         }
         }
     &--section{
@@ -70,6 +62,9 @@
             border-bottom: 2px solid $tertiaire;
             width: 32px;
             margin-bottom: 1em;
+            @include mediaquery(tablette){
+                font-size: 1.2em;
+            }
             }
         &--bandeaux{
             display: flex;

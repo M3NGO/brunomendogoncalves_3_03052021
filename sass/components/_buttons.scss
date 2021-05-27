@@ -34,6 +34,11 @@
     padding: 0em 2em 0em 2em;
     color: white;
     margin: 1.5em;
+    @include mediaquery(tablette){
+        width: 20em;
+        height: 4em;
+        font-weight: bold;
+    }
     @include shadow;
     &:hover{
         @include shadow-hover;
@@ -43,6 +48,11 @@
 
 .btn-funct{
     display: flex;
+    @include mediaquery(tablette){
+        align-self: center;
+        width: 20em;
+        height: 4em;
+    }
     &__number{
         position: absolute;
         padding: 0.2em 0.5em 0.2em 0.5em;

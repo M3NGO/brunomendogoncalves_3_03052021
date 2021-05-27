@@ -19,6 +19,11 @@
             justify-content: space-around;
             height: 20em;
             padding: 0em 1em 1.5em 1em;
+            @include mediaquery(pc){
+                flex-direction: row;
+                height: auto;
+                justify-content: space-evenly;
+            }
         }
     }
     &__restaurants{

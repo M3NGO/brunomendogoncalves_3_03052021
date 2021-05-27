@@ -17,6 +17,9 @@
 body{
 font-family: 'Roboto','Roboto-Bold', 'Shrikhand', Arial, Helvetica, sans-serif;
 margin: 0px 0px 0px 0px;
+@include mediaquery(tablette){
+    font-size: 1.3em;
+}
 }
 
 h1, h2{
