@@ -7,7 +7,6 @@
 
 .coeur-plein{
     background: $fond-gradient;
-    background-clip:text;
     -webkit-background-clip: text;//pour chrome
     color:transparent;
     display: none;
@@ -65,7 +64,6 @@
         width:3em;
         text-align: center;
     }
-
     &__fond{
     display: flex;
     align-items: center;
@@ -101,7 +99,7 @@
     }
 }
 
-.menu--section--bandeaux--zone-txt:hover + .btn-menu-section  > .btn-menu-section--check{
+.menu__section__bandeaux__zone-txt:hover + .btn-menu-section  > .btn-menu-section--check{
     animation: checked .5s linear;
 }
 
@@ -111,7 +109,7 @@
 }
 
 
-.menu--section--bandeaux--zone-txt:hover + .btn-menu-section { 
+.menu__section__bandeaux__zone-txt:hover + .btn-menu-section { 
     display: inline-flex;
     animation: slide-in .5s ease-in;
 }
