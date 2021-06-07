@@ -8,9 +8,19 @@
 }
 .gras{
     font-weight: bold;
+    &--titre{
+        font-size: 1.1em;
+        width: 90%;
+    }
 }
 .overflow{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+.prix{
+    margin-left: 2em;
+}
+.font-spinner{
+    font-family: $font-2;
 }

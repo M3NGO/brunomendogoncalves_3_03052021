@@ -2,6 +2,10 @@
     font-family: Roboto;
     src: url("../content/fonts/Roboto/Roboto-Regular.ttf") format('truetype');
 }
+@font-face {
+    font-family: Roboto-light;
+    src: url("../content/fonts/Roboto/Roboto-Light.ttf") format('truetype');
+}
 
 @font-face {
     font-family: Roboto-bold;
@@ -15,7 +19,7 @@
 
 
 body{
-font-family: 'Roboto','Roboto-Bold', 'Shrikhand', Arial, Helvetica, sans-serif;
+font-family: 'Roboto','Roboto-Bold', 'Roboto-Light', 'Shrikhand', Arial, Helvetica, sans-serif;
 margin: 0px 0px 0px 0px;
 @include mediaquery(tablette){
     font-size: 1.3em;
@@ -38,7 +42,8 @@ h3{
 
 p{
     @include texte-p;
-    margin: 6.4px 0px 6.4px 0px;
+    font-family: 'Roboto-Light';
+    margin: 6px 0px 6px 0px;
 }
 
 li a{
